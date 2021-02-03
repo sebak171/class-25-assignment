@@ -1,0 +1,97 @@
+.hadder{
+  background: rgb(244, 246, 246);
+}
+.hadder img{
+    width: 160px;
+}
+.hadder-menu{
+    text-align: center;
+}
+.hadder-menu ul{
+    margin-bottom: 0;
+}
+
+.hadder-menu ul li {
+    display: inline-block;
+    line-height: 55px;
+    border-right: 1px solid white;
+}
+.hadder-menu ul li a{
+    color: rgb(11, 123, 228);
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    margin-left: -5px;
+    padding: 0 20px;
+    transition: all .5s;
+}
+.hadder-menu ul li a:hover{
+    background: #000;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+/* slider img */
+
+/* dropdown part */
+
+.hadder-menu ul li ul{}
+.hadder-menu ul li ul li{
+    display: block;
+}
+.hadder-menu ul li ul li a{}
+
+.slider{
+    background-image: url(https://c.wallhere.com/photos/00/7d/1200x800_px_black_background_Blonde_Dmitry_Elizarov_face_portrait_women_Women_With_Glasses-638459.jpg!d);
+    padding: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.slider h1{
+    color: white;
+}
+
+/* about-section */
+
+.about{
+    margin-top: 40px;
+}
+.about-img img{
+    width: 100px;
+}
+.about-section h2 {
+   display: inline-block;
+   padding: 7px 10px;
+   border-radius: 6px;
+   transition: all .5s;
+   background: rgb(248, 244, 244);
+}
+.about-section h2:hover{
+    background: rgb(161, 157, 157);
+    color: white;
+}
+
+
+.about-section .Extra{
+    font-size: 20px;
+}
+
+/*  google map */
+
+.google-map{
+    margin-top: 30px;
+}
+
+/* footer section */
+
+.footer{
+    background: rgba(4, 40, 246, 0.959);
+    padding: 10px 0;
+}
+.footer p{
+    margin: 0;
+    color: white;
+}
